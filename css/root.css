@@ -1,0 +1,9 @@
+/* 공통 css 네이밍 */
+
+/* 브랜드 컬러 */
+:root {
+    --brand-btn-color: #4c5fd5;
+    --head-footer-color: #000000;
+    --main1-bg-color: #dadbf1;
+    --main2-bg-color: #fff;
+}
