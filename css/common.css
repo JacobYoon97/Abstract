@@ -90,3 +90,92 @@ main > section > div > input[type='text']:focus {
     border: 1px solid var(--brand-btn-color);
     outline: none;
 }
+
+main > .container {
+    padding: 70px 70px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+}
+
+main > .container > .containerWrap {
+    display: flex;
+    margin-top: 50px;
+    padding: 70px 70px;
+}
+main > .container > .containerWrap > img {
+    width: 78px;
+    height: 78px;
+}
+main > .container > .containerWrap > div {
+    padding-left: 20px;
+}
+main > .container > .containerWrap > div > h2,
+p {
+    margin-bottom: 20px;
+}
+main > .container > .containerWrap > div > p {
+    font-size: 24px;
+}
+main > .container > .containerWrap > div > a {
+    cursor: pointer;
+    font-size: 20px;
+    color: var(--brand-btn-color);
+}
+main > .container > .containerWrap > div > a:hover {
+    border-bottom: 2px solid var(--brand-btn-color);
+}
+
+footer {
+    position: relative;
+    background-color: var(--head-footer-color);
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px 100px 200px 100px;
+    overflow: hidden;
+}
+footer > div:first-child {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 50px;
+}
+footer > div:first-child > ul {
+    position: relative;
+}
+footer > div:first-child > ul > h2 {
+    margin-bottom: 20px;
+}
+footer > div:first-child > ul > li {
+    margin-top: 10px;
+    cursor: pointer;
+}
+footer > div:first-child > ul > li > span {
+    font-size: 16px;
+}
+footer > div:first-child > ul > li:hover span {
+    border-bottom: 1px solid #fff;
+}
+
+footer > div:first-child > ul > div {
+    position: absolute;
+
+    bottom: -30px;
+}
+footer > div:first-child > ul > div > h4 {
+    margin-bottom: 8px;
+}
+footer > div:first-child > ul > div > span {
+    font-size: 14px;
+}
+footer > div:nth-child(2) {
+    position: relative;
+}
+footer > div:nth-child(2) > ul {
+    position: absolute;
+    bottom: -80px;
+    right: 0;
+}
+footer > div:nth-child(2) > ul > li > span {
+    font-size: 20px;
+}
