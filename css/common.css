@@ -78,7 +78,7 @@ main > section > div > span {
     font-weight: bolder;
 }
 main > section > div > input[type='text'] {
-    width: 750px;
+    width: 45rem;
     border: 1px solid #000000;
     border-radius: 5px;
     height: 60px;
